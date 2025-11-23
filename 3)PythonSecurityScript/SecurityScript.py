@@ -11,7 +11,8 @@ def validate_username(username):
     if "<" in username or ">" in username:
         return False, "Username cannot contain '<' or '>' characters."
 
-    return True, "Username is valid."
+    else:
+        return True, "Username is valid."
 
 # Sample test usernames
 test_usernames = [
@@ -24,6 +25,17 @@ test_usernames = [
     "1234"                      # valid
 ]
 
+# Run test cases
+print("=== TEST CASES ===")
 for user in test_usernames:
     result, message = validate_username(user)
     print(f"Testing '{user}': {message}")
+
+# Allow manual input
+print("\n=== MANUAL TESTING ===")
+while True:
+    user_input = input("\nEnter a username to test (or 'quit' to exit): ")
+    if user_input.lower() == 'quit':
+        break
+    result, message = validate_username(user_input)
+    print(f"Result: {message}")

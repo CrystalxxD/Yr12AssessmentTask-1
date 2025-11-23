@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <script src="script.js"></script> <!--Link to external JavaScript file-->
+</head>
+<body>
+    
+    <!-- Form container -->
+    <div id="formDiv"> 
+        <h2>Register</h2>
+        
+        <!-- Form with onsubmit event to run submitForm function -->
+        <form onsubmit="submitForm(event)">
+            Name: <input type="text" id="name"><br><br>
+            Email: <input type="text" id="email"><br><br>
+            Date of Birth: <input type="date" id="dob"><br><br>
+            Password: <input type="password" id="pw"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+     
+    <!-- Container to display user info after submission -->
+    <div id="infoDiv" style="display:none;"></div>
+</body>
+</html>

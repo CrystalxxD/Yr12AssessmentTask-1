@@ -1,7 +1,7 @@
 CREATE TABLE RestaurantReservations (
              ReservationID INT PRIMARY KEY,
-             UserName VARCHAR(50),
-             UserEmail VARCHAR(100),
+             UserName TEXT,
+             UserEmail TEXT,
              ReservationDate DATE,
              Time TIME,
              NumberOfGuests INT

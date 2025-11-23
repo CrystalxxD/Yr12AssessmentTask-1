@@ -1,4 +1,5 @@
 # Yr12AssessmentTask-1
+## Programming For The Web
 **Outcomes to be Assessed (Syllabus outcomes being assessed by task)**\
 SE-12-01: Investigates and applies appropriate development methodologies to solve software-related problems.
 SE-12-02: Designs and develops software solutions using appropriate data structures, algorithms, and programming concepts.
@@ -26,3 +27,6 @@ Each example must be developed and presented as ‘code’ and produced as a scr
 - Demonstrate your understanding of the code by demonstrating its operation.
 - Use technical language where relevant to identify key elements
 - Justify the benefits and issues of developing secure solutions using hypothetical examples relevant to your demonstration.
+
+**LINK FOR GOOGLE DOCS**\
+[Assessment Task 1 - Theoretical Response & Script](https://docs.google.com/document/d/13TB8DEd6MFMUmsg3lVEzsCDogX8WXefh5aeoBuO5De4/edit?usp=sharing)
