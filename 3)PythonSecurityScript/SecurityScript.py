@@ -5,11 +5,11 @@ def validate_username(username):
 
     # Condition 2: Only Letters or Numbers characters
     if not username.isalnum():
-        return False, "Username must contain only letters and numbers."
-
-    # Condition 3: Cannot contain < or >
-    if "<" in username or ">" in username:
-        return False, "Username cannot contain '<' or '>' characters."
+        # Condition 3: Username cannot contain < or >
+        if "<" in username or ">" in username:
+            return False, "Username cannot contain '<' or '>' characters."
+        else:
+            return False, "Username must contain only letters and numbers."
 
     else:
         return True, "Username is valid."
