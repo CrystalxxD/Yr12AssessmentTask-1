@@ -2,7 +2,7 @@
 **1. Web Form Validation:**
 This video will explain how the webpage works.
 
-In index.html begins by setting up a basic webpage with a title that says “Register”. Inside the head section, it links to an external JavaScript file called script.js, which means the behaviour of the form will be controlled by that file.
+In index.html begins by setting up a basic webpage with a title that says “Register”. Inside the head section, it links to an external JavaScript file called script.js, which means the behaviour of the form will be controlled by that file. It also links to the CSS file which controls the style of the webpage
 
 Inside the body, the HTML contains two main sections. The first one is a division called formDiv. This division holds the registration form that the user interacts with. At the top is a heading that says “Register”, followed by the actual form. The form includes four fields: a text field for the user's name, another for the email, a date selector for the date of birth, and a password field for the user’s chosen password. The form has an onsubmit attribute that tells the browser to call a function named submitForm when the user presses the submit button. This means the form does not automatically reload the page; instead, it hands control over to the JavaScript.
 
@@ -20,6 +20,15 @@ After that, the password is checked. The script ensures that the password is at 
 
 If all validation passes, the formDiv is hidden by changing its display style. Then the script updates the infoDiv with a formatted summary of the user’s name, email, and date of birth, and finally makes this section visible. This allows the user to clearly see the information they submitted.
 
+In the CSS file the body of the page is centred using flexbox so the form appears in the middle of the screen. A soft gradient background is applied to give the page a clean, modern look.
+
+The form itself sits inside a styled container called formDiv. This box uses a white background, rounded corners, padding, and a subtle shadow to separate it from the rest of the page and make it stand out visually.
+
+The input fields such as text, date, and password are styled to be the full width of the form. They have consistent padding, rounded corners, and a light border. When the user clicks into an input, the field highlights with a blue border and a shadow so it is clear which part of the form is active.
+
+The submit button uses the accent colour from the theme. It has bold text, rounded corners, and a clean hover feel, making it clear and easy to interact with.
+
+The infoDiv section, which displays the user’s details after the form is submitted, is styled in a similar way to the form box. It remains hidden until the JavaScript activates it.
 
 **2. SQL Database Query**
 This video is about SQL Script.
