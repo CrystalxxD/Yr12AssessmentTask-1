@@ -22,6 +22,7 @@ test_usernames = [
     "User99",                   # valid
     "not_al...",                # not alphanumeric
     "Test>",                    # contains >
+    "Has Space",                # contains space therefor not alphanumeric
     "1234"                      # valid
 ]
 
